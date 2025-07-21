@@ -1,8 +1,5 @@
-import React from 'react'
+import { NewUser } from '@/app/components/NewUser';
 
-export const NewUser = () => {
-  return (
-    <div>Hi Akshaya</div>
-  )
+export default function Page() {
+  return <NewUser />;
 }
-export default NewUser;
